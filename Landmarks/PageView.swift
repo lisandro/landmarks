@@ -9,7 +9,6 @@
 import SwiftUI
 
 struct PageView<Page: View>: View {
-
     var viewControllers: [UIHostingController<Page>]
     @State var currentPage = 0
 
@@ -18,14 +17,10 @@ struct PageView<Page: View>: View {
     }
 
     var body: some View {
-        VStack {
+        ZStack(alignment: .bottomTrailing) {
             PageViewController(currentPage: $currentPage, controllers: viewControllers)
-            Text("Current Page: \(currentPage)")
-            Button(action: {
-                self.currentPage = 2
-            }) {
-                Text("Go to 3rd page")
-            }
+            PageControl(numberOfPages: viewControllers.count, currentPage: $currentPage)
+                .padding(.trailing)
         }
     }
 }
@@ -33,7 +28,6 @@ struct PageView<Page: View>: View {
 struct PageView_Previews: PreviewProvider {
     static var previews: some View {
         PageView(features.map { FeatureCard(landmark: $0) })
-            .aspectRatio(3/2, contentMode: .fit)
-
+            .aspectRatio(3 / 2, contentMode: .fit)
     }
 }

@@ -56,6 +56,7 @@
 		A049C1772431409500FA274F /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049C1762431409500FA274F /* PageViewController.swift */; };
 		A049C179243141AA00FA274F /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049C178243141AA00FA274F /* PageView.swift */; };
 		A049C17B243144BD00FA274F /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049C17A243144BD00FA274F /* FeatureCard.swift */; };
+		A049C17D24314A9A00FA274F /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049C17C24314A9A00FA274F /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +111,7 @@
 		A049C1762431409500FA274F /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		A049C178243141AA00FA274F /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		A049C17A243144BD00FA274F /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		A049C17C24314A9A00FA274F /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 				A042101E2430EDB200118418 /* RotatedBadgeSymbol.swift */,
 				A04210282430FD4300118418 /* HikeGraph.swift */,
 				A042102A2430FDCD00118418 /* GraphCapsule.swift */,
+				A049C17C24314A9A00FA274F /* PageControl.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				A049C16624311F5800FA274F /* CategoryHome.swift in Sources */,
 				A049C17324312EAA00FA274F /* HikeBadge.swift in Sources */,
 				A020AF43243024300037C98B /* ImageStore.swift in Sources */,
+				A049C17D24314A9A00FA274F /* PageControl.swift in Sources */,
 				A049C1682431208A00FA274F /* CategoryRow.swift in Sources */,
 				A04210212430F5E500118418 /* HikeView.swift in Sources */,
 				A04210232430FB9D00118418 /* Hike.swift in Sources */,
