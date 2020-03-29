@@ -18,7 +18,8 @@ struct CategoryRow: View {
                 .font(.headline)
                 .padding(.leading, 15)
                 .padding(.top, 5)
-            ScrollView {
+            // Scroll view by default Vertical
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0.0) {
                     ForEach(self.items) { item in
                         NavigationLink(destination: LandmarkDetail(landmark: item)) {

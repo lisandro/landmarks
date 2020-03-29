@@ -39,6 +39,7 @@ struct CategoryHome: View {
                     .frame(height: 200.0)
                     .clipped() // By default, a view’s bounding frame is used only for layout, so any content that extends beyond the edges of the frame is still visible. Use the clipped(antialiased:)modifier to hide any content that extends beyond these edges.
                     .listRowInsets(EdgeInsets())
+
                 ForEach(categories.keys.sorted(), id: \.self) { key in
                     CategoryRow(categoryName: key, items: self.categories[key]!)
                 }
