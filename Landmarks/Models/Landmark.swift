@@ -26,6 +26,8 @@ struct Landmark: Hashable, Codable, Identifiable {
     var category: Category
     /// Determine if the landmark is user's favorite
     var isFavorite: Bool
+    /// Determine if the landmark is featued content
+    var isFeatured: Bool
 
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
