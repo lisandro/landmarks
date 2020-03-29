@@ -37,11 +37,13 @@ struct LandmarkDetail: View {
                         self.userData.landmarks[self.landmarkIndex].isFavorite.toggle()
                     }) {
                         if self.userData.landmarks[self.landmarkIndex].isFavorite {
-                            Image(systemName: "star.fill")
-                                .foregroundColor(.yellow)
+                            Image(systemName: "heart.fill")
+                                .foregroundColor(.pink)
+                                .animation(.default)
                         } else {
-                            Image(systemName: "star.fill")
-                            .foregroundColor(.gray)
+                            Image(systemName: "heart")
+                                .foregroundColor(.gray)
+                                .animation(.easeInOut)
                         }
                     }
                 }
