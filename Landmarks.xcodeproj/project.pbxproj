@@ -52,6 +52,7 @@
 		A049C16F24312C8900FA274F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049C16E24312C8900FA274F /* Profile.swift */; };
 		A049C17124312D4500FA274F /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049C17024312D4500FA274F /* ProfileSummary.swift */; };
 		A049C17324312EAA00FA274F /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049C17224312EAA00FA274F /* HikeBadge.swift */; };
+		A049C175243135D800FA274F /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049C174243135D800FA274F /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +103,7 @@
 		A049C16E24312C8900FA274F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		A049C17024312D4500FA274F /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		A049C17224312EAA00FA274F /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		A049C174243135D800FA274F /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 			children = (
 				A049C16C24312C0D00FA274F /* ProfileHost.swift */,
 				A049C17024312D4500FA274F /* ProfileSummary.swift */,
+				A049C174243135D800FA274F /* ProfileEditor.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				A04210232430FB9D00118418 /* Hike.swift in Sources */,
 				A04210272430FD1500118418 /* HikeDetail.swift in Sources */,
 				A049C17124312D4500FA274F /* ProfileSummary.swift in Sources */,
+				A049C175243135D800FA274F /* ProfileEditor.swift in Sources */,
 				A049C16A2431233300FA274F /* CategoryItem.swift in Sources */,
 				A020AF39243012D80037C98B /* MapView.swift in Sources */,
 				A042101524303EF900118418 /* UserData.swift in Sources */,
