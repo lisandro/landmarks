@@ -11,13 +11,22 @@ import SwiftUI
 struct PageView<Page: View>: View {
 
     var viewControllers: [UIHostingController<Page>]
+    @State var currentPage = 0
 
     init(_ views: [Page]) {
         self.viewControllers = views.map { UIHostingController(rootView: $0) }
     }
 
     var body: some View {
-        PageViewController(controllers: viewControllers)
+        VStack {
+            PageViewController(currentPage: $currentPage, controllers: viewControllers)
+            Text("Current Page: \(currentPage)")
+            Button(action: {
+                self.currentPage = 2
+            }) {
+                Text("Go to 3rd page")
+            }
+        }
     }
 }
 
