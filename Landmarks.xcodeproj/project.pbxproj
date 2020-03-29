@@ -38,6 +38,7 @@
 		A04210192430E41F00118418 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04210182430E41F00118418 /* HexagonParameters.swift */; };
 		A042101B2430E83D00118418 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A042101A2430E83D00118418 /* BadgeBackground.swift */; };
 		A042101D2430E8D100118418 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A042101C2430E8D100118418 /* BadgeSymbol.swift */; };
+		A042101F2430EDB200118418 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A042101E2430EDB200118418 /* RotatedBadgeSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		A04210182430E41F00118418 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		A042101A2430E83D00118418 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		A042101C2430E8D100118418 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		A042101E2430EDB200118418 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				A04210162430E37200118418 /* Badge.swift */,
 				A042101A2430E83D00118418 /* BadgeBackground.swift */,
 				A042101C2430E8D100118418 /* BadgeSymbol.swift */,
+				A042101E2430EDB200118418 /* RotatedBadgeSymbol.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				A020AF3C243021430037C98B /* Landmark.swift in Sources */,
 				A020AF5E2430252B0037C98B /* LandmarkRow.swift in Sources */,
 				A020AF60243027290037C98B /* LandmarkList.swift in Sources */,
+				A042101F2430EDB200118418 /* RotatedBadgeSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
